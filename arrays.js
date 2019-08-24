@@ -40,6 +40,10 @@ var destructivelyRemoveElementFromEndOfArray = array =>{
 }
 
 
+var removeElementFromEndOfArray = array =>{
+  
+}
+
 
 
 
