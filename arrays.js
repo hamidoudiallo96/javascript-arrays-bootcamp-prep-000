@@ -29,6 +29,11 @@ var destructivelyRemoveElementFromBeginningOfArray = array =>{
   return array;
 }
 
+var removeElementFromBeginningOfArray = array =>{
+  array.pop()
+  return array;
+}
+
 
 
 
