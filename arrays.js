@@ -41,7 +41,7 @@ var destructivelyRemoveElementFromEndOfArray = array =>{
 
 
 var removeElementFromEndOfArray = array =>{
-  array.splice((array.length)-1,1)
+  array = array.slice(-1)
   return array
 }
 
